@@ -17,10 +17,11 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.linux": "/bin/bash",
   "workbench.sideBar.location": "right",
-  "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": false,
   "editor.rulers": [
     80
   ],
-  "workbench.colorTheme": "Dracula Soft"
+  "workbench.colorTheme": "Dracula Soft",
+  "editor.fontSize": 15,
+  "editor.renderWhitespace": "selection"
 }
