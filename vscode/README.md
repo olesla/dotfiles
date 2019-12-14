@@ -15,3 +15,6 @@ sudo apt-get install -f
 ```
 
 The first time Visual Studio Code is opened, it will create subdirectories in `~/.config`. Therefore you need to open the program and close it before using the `stow` command.
+
+### TODO
+Figure out a way to automatically install all extensions
