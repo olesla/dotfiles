@@ -1,0 +1,26 @@
+{
+  "editor.fontFamily": "Noto Mono",
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.visible": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": false,
+  "eslint.nodePath": "/usr/bin/node",
+  "eslint.runtime": "node",
+  "eslint.validate": [
+    "javascript"
+  ],
+  "terminal.integrated.fontFamily": "Noto Mono",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "workbench.sideBar.location": "right",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": false,
+  "editor.rulers": [
+    80
+  ],
+  "workbench.colorTheme": "Slime"
+}
