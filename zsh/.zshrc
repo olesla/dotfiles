@@ -5,7 +5,7 @@ export PATH=$HOME/.local/bin:$HOME/.local/share/umake/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 export NODE_PATH="$HOME/.local/lib/node_modules"
 
-ZSH_THEME="af-magic"
+ZSH_THEME="eastwood"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -41,5 +41,3 @@ xset r rate 220 40
 alias lh="ls -alh"
 alias c="clear"
 alias gs="git status"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
