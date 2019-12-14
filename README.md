@@ -1,9 +1,10 @@
 dotfiles
 ------
-Based of https://alexpearce.me/2016/02/managing-dotfiles-with-stow   
-VSCode font https://www.google.com/get/noto   
-Uses GNU Stow https://www.gnu.org/software/stow   
-Gnome terminal theme https://github.com/Mayccoll/Gogh   
+Based on https://alexpearce.me/2016/02/managing-dotfiles-with-stow   
+GNU Stow https://www.gnu.org/software/stow   
+   
+Font https://www.google.com/get/noto   
+GNOME terminal theme https://github.com/Mayccoll/Gogh   
 
 ### Installation
 ```bash
