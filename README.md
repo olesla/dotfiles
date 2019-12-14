@@ -20,3 +20,7 @@ This creates symlinks one level above the current working directory for every fi
 ```bash
 stow zsh
 ```
+```bash
+$ ls ~ | grep .zshrc
+.zshrc -> .dotfiles/zsh/.zshrc
+```
