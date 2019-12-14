@@ -5,6 +5,12 @@
 [alias]
   history = log --graph --pretty=format:'%C(bold blue)%ar%Creset %C(bold magenta)[%an]%C(reset)%C(yellow)%d%Creset %s'
 
+[color "diff"]
+  new = green
+  old = red
+  frag = blue bold
+  meta = magenta bold
+
 [color "status"]
   added = green
   changed = yellow
