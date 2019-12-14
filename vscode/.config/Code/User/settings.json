@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Noto Mono",
+  "editor.fontFamily": "Input Mono",
   "files.autoSave": "onFocusChange",
   "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
