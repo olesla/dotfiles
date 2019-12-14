@@ -1,2 +1,20 @@
-Uses GNU Stow – https://www.gnu.org/software/stow/
-stow zsh (or i3, rofi, dmenu, etc.)
+dotfiles
+------
+Based of https://alexpearce.me/2016/02/managing-dotfiles-with-stow   
+VSCode font https://www.google.com/get/noto
+Uses GNU Stow – https://www.gnu.org/software/stow   
+
+### Installation
+```bash
+cd ~
+git clone git@github.com:olesla/dotfiles.git .dotfiles
+```
+### Usage
+```bash
+cd ~/.dotfiles
+stow dir
+```
+This creates symlinks one level above the current working directory for every file in the folder which is passed in as an argument to the stow command.
+```bash
+stow zsh
+```
