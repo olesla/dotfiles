@@ -41,3 +41,5 @@ xset r rate 220 40
 alias lh="ls -alh"
 alias c="clear"
 alias gs="git status"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
