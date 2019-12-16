@@ -17,6 +17,13 @@ ZSH_THEME="eastwood"
 source $ZSH/oh-my-zsh.sh
 
 #------------
+# Includes
+#------------
+for file in $HOME/.zsh_includes/*; do
+  source $file
+done
+
+#------------
 # General
 #------------
 
