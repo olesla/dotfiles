@@ -14,3 +14,5 @@
   added = green
   changed = yellow
   untracked = red
+[credential]
+	helper = store
