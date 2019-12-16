@@ -13,9 +13,9 @@
   "eslint.validate": [
     "javascript"
   ],
-  "terminal.integrated.fontFamily": "Noto Mono",
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.fontFamily": "Input Mono",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "workbench.sideBar.location": "right",
   "editor.renderControlCharacters": false,
   "editor.rulers": [
