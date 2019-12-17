@@ -156,28 +156,29 @@ for_window [class="^.*"] border pixel 1
 new_window 1pixel
 
 # Start polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # exec --no-startup-id nm-applet
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#  position top
-#  status_command i3status
-#  font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-#  font pango:DejaVu Sans Mono 12
-#  colors {
-#    background #2b2b2a
-#    statusline #ffffff
-#    separator #8f8f8d
-#
-#    focused_workspace  #fff #fff #ffffff
-#    active_workspace   #fff #fff #ffffff
-#    inactive_workspace #333333 #222222 #888888
-#    urgent_workspace   #2f343a #900000 #ffffff
-#    binding_mode       #2f343a #900000 #ffffff
-#  }
-#}
+
+bar {
+  position top
+  status_command i3status -c ~/.config/i3status/config
+  font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+  font pango:Input Mono 11
+  colors {
+    background #282A36
+    statusline #8BE9FD
+    separator #94A3A5
+
+    focused_workspace  #fff #fff #ffffff
+    active_workspace   #fff #fff #ffffff
+    inactive_workspace #333333 #222222 #888888
+    urgent_workspace   #2f343a #900000 #ffffff
+    binding_mode       #2f343a #900000 #ffffff
+  }
+}
 
 bindsym $mod+space exec --no-startup-id rofi -show run
