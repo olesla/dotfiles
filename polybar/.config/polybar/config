@@ -16,9 +16,39 @@
 ;
 ;==========================================================
 
+[colors]
+  background = #282A36
+  foreground = #FFFFFF
+
 [bar/base]
-  modules-right = date
+  ; enable-ipc = true
+  font-0 = Input Mono:style=Regular
+  font-1 = FontAwesome:style=Regular
+  modules-right = wired-network date
+  modules-left = cpu memory
+  module-margin = 40
+  background = ${colors.background}
+  foreground = ${colors.foreground}
 
 [module/date]
   type = internal/date
-  date = %Y-%m-%d
+  date = %{T1} %{T-}%Y-%m-%d %{T1} %{T-}%H:%M
+
+[module/cpu]
+  type = internal/cpu
+  interval = 0.5
+  label = %{T1} %{T-}%percentage%
+
+[module/memory]
+  type = internal/memory
+  ; Seconds to sleep between updates
+  ; Default: 1
+  interval = 3
+  label = %{T1} %{T-}%gb_used%/%gb_free%
+
+[module/wired-network]
+  type = internal/network
+  interface = ens33
+  label-connected = %{T1} %{T-} %ifname% %local_ip%
+  label-disconnected = not connected
+  label-disconnected-foreground = #66ffffff
