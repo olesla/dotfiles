@@ -152,13 +152,15 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Hide window title bar
-for_window [class="^.*"] border pixel 1
+for_window [class=".*"] border pixel 5
 new_window 1pixel
 
-# Start polybar
-# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
-# exec --no-startup-id nm-applet
+# <colorclass> <border> <background> <text> <indicator> <child_border>
+client.focused #000000 #000000 #ffffff #000000 #44475A
+client.focused_inactive #000000 #000000 #ffffff #000000 #000000
+client.unfocused #000000 #000000 #ffffff #000000 #000000
+client.urgent #000000 #000000 #ffffff #000000 #000000
+client.placeholder #000000 #000000 #ffffff #000000 #000000
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -181,4 +183,9 @@ bar {
   }
 }
 
+# Start polybar
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+exec --no-startup-id nm-applet
 bindsym $mod+space exec --no-startup-id rofi -show run
+bindsym $mod+i append_layout /home/ocs/.config/i3/dev_layout.json
