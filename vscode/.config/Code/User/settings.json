@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Input Mono",
   "files.autoSave": "onFocusChange",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": true,
