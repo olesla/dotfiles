@@ -1,5 +1,9 @@
-[include]
-  path= ~/.gitconfig.user
+#[include]
+#  path= ~/.gitconfig.user
+
+[user]
+  name = Ole Christian
+  email = slaattene@gmail.com
 
 [alias]
   history = log --graph --pretty=format:'%C(bold blue)%ar%Creset %C(bold magenta)[%an]%C(reset)%C(yellow)%d%Creset %s'
