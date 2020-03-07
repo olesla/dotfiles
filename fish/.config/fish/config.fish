@@ -3,7 +3,8 @@
 #------------
 
 # Welcome message
-set -g fish_greeting Welcome
+set -g fish_greeting "Javel, se det.."
+neofetch
 
 # Keyboard
 xset r rate 220 40
