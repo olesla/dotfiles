@@ -4,7 +4,7 @@
   "editor.minimap.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.formatOnSave": false,
@@ -25,5 +25,16 @@
   "editor.tabCompletion": "on",
   "workbench.colorTheme": "Dark+ (contrast)",
   "window.zoomLevel": 0,
-  "editor.fontSize": 15
+  "editor.fontSize": 15,
+  "editor.minimap.side": "left",
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorCustomizations": {
+    "statusBar.background" : "#000000",
+    "statusBar.noFolderBackground" : "#212121",
+    "statusBar.debuggingBackground": "#263238",
+    "sideBar.background": "#000000",
+    "tab.inactiveBackground": "#000000",
+    "tab.activeBackground": "#212121",
+    "editorGroupHeader.tabsBackground": "#000000"
+  }
 }
