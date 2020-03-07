@@ -1,0 +1,37 @@
+[bar/top]
+font-0 = InputMono:size=8
+font-1 = InputMono:size=20
+modules-center = i3
+modules-right = date
+
+[module/i3]
+type = internal/i3
+
+label-focused-foreground = #ffffff
+label-focused-background = #353524
+label-focused-padding = 4
+; This does not seem to work
+label-focused-underline = #09c1f9
+
+label-unfocused-foreground = #ffffff
+label-unfocused-background = #212112
+label-unfocused-padding = 4
+
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
+time = %H:%M:%S
+
+; Available tags:
+;   <label> (default)
+format = <label>
+format-background = #000000
+format-foreground = #fff
+
+; Available tokens:
+;   %date%
+;   %time%
+; Default: %date%
+label = %date% %time%
+label-font = 1
+label-foreground = #ffffff
