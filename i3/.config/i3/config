@@ -78,8 +78,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -187,5 +187,8 @@ bar {
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id nm-applet
-bindsym $mod+space exec --no-startup-id rofi -show run
-bindsym $mod+i append_layout /home/ocs/.config/i3/dev_layout.json
+
+bindsym $mod+space exec --no-startup-id rofi -show drun
+bindsym $mod+w exec --no-startup-id rofi -show window
+bindsym $mod+s exec --no-startup-id rofi -show ssh
+#bindsym $mod+i append_layout /home/ocs/.config/i3/dev_layout.json
