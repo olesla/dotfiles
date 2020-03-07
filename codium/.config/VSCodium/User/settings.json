@@ -21,7 +21,9 @@
   "editor.rulers": [
     80
   ],
-  "editor.fontSize": 15,
   "editor.renderWhitespace": "selection",
-  "editor.tabCompletion": "on"
+  "editor.tabCompletion": "on",
+  "workbench.colorTheme": "Dark+ (contrast)",
+  "window.zoomLevel": 0,
+  "editor.fontSize": 15
 }
