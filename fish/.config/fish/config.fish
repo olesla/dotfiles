@@ -12,7 +12,10 @@ xset r rate 220 40
 # History
 set HISTSIZE 1000
 set SAVEHIST 1000
+
+# Variables
 set HISTFILE "$HOME/.bash_history"
+set CFG      "$HOME/.config"
 
 #------------
 # Aliases
