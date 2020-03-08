@@ -1,12 +1,24 @@
 [bar/top]
-font-0 = InputMono:size=8
+font-0 = InputMono:size=9
 font-1 = InputMono:size=20
+
+;modules-left =
 modules-center = i3
-modules-right = date
+modules-right = date 
+
+tray-position = right
+; If true, the bar will not shift its
+; contents when the tray changes
+tray-detached = false
+; Tray icon max size
+tray-maxsize = 16
+; Pad the sides of each tray icon
+tray-padding = 7
+; Scale factor for tray clients
+tray-scale = 1
 
 [module/i3]
 type = internal/i3
-
 label-focused-foreground = #ffffff
 label-focused-background = #353524
 label-focused-padding = 4
