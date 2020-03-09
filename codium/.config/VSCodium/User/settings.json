@@ -14,18 +14,18 @@
     "javascript"
   ],
   "terminal.integrated.fontFamily": "Input Mono",
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.linux": "/usr/bin/fish",
   "workbench.sideBar.location": "right",
   "editor.renderControlCharacters": false,
   "editor.rulers": [
     80
   ],
+  "editor.fontSize": 14,
   "editor.renderWhitespace": "selection",
   "editor.tabCompletion": "on",
   "workbench.colorTheme": "Dark+ (contrast)",
   "window.zoomLevel": 0,
-  "editor.fontSize": 15,
   "editor.minimap.side": "left",
   "window.menuBarVisibility": "toggle",
   "workbench.colorCustomizations": {
