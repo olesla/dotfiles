@@ -29,5 +29,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "Slime",
   "editor.fontWeight": "700",
-  "material-icon-theme.hidesExplorerArrows": true
+  "material-icon-theme.hidesExplorerArrows": true,
+  "window.openFoldersInNewWindow": "off"
 }
