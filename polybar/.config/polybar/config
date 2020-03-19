@@ -1,6 +1,9 @@
 [bar/top]
-font-0 = InputMono:size=9
-font-1 = InputMono:size=20
+font-0 = NotoSans-Regular:size=11
+font-1 = NotoSans-Regular:size=11
+
+background = #161919
+foreground = #D3D7CF
 
 ;modules-left =
 modules-center = i3
@@ -20,14 +23,14 @@ tray-scale = 1
 [module/i3]
 type = internal/i3
 label-focused-foreground = #ffffff
-label-focused-background = #353524
-label-focused-padding = 4
+label-focused-background = #282e2f
+label-focused-padding = 6
 ; This does not seem to work
 label-focused-underline = #09c1f9
 
 label-unfocused-foreground = #ffffff
-label-unfocused-background = #212112
-label-unfocused-padding = 4
+label-unfocused-background = #1e2324
+label-unfocused-padding = 6
 
 [module/date]
 type = internal/date
@@ -37,7 +40,7 @@ time = %H:%M:%S
 ; Available tags:
 ;   <label> (default)
 format = <label>
-format-background = #000000
+format-background = #161919
 format-foreground = #fff
 
 ; Available tokens:

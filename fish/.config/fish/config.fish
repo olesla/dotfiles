@@ -13,7 +13,10 @@ xset r rate 220 40
 set HISTSIZE 1000
 set SAVEHIST 1000
 
-# Variables
+# Path
+set PATH = "$HOME/.npm-global/bin" $PATH
+
+# Enviroment variables
 set HISTFILE "$HOME/.bash_history"
 set CFG      "$HOME/.config"
 
