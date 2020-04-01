@@ -13,7 +13,7 @@
   "eslint.validate": [
     "javascript"
   ],
-  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shell.linux": "/usr/bin/fish",
   "workbench.sideBar.location": "right",
@@ -27,8 +27,10 @@
   "editor.minimap.side": "left",
   "window.menuBarVisibility": "toggle",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Slime",
-  "editor.fontWeight": "700",
   "material-icon-theme.hidesExplorerArrows": true,
-  "window.openFoldersInNewWindow": "off"
+  "window.openFoldersInNewWindow": "off",
+  "terminal.integrated.fontWeight": "700",
+  "editor.matchBrackets": "never",
+  "editor.fontWeight": "600",
+  "workbench.statusBar.visible": false
 }
