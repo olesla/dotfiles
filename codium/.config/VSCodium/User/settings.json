@@ -32,5 +32,9 @@
   "terminal.integrated.fontWeight": "700",
   "editor.matchBrackets": "never",
   "editor.fontWeight": "600",
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": true,
+  "editor.fontSize": 11.5,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "workbench.colorTheme": "Owlet (Palenight)"
 }
