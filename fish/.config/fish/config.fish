@@ -1,39 +1,28 @@
-#------------
-# General
-#------------
-
-# Welcome message
 set -g fish_greeting ""
-neofetch
 
-# Keyboard
+# keyboard
 xset r rate 220 40
-
-# History
+setxkbmap -layout no -option nodeadkeys
+# history
 set HISTSIZE 1000
 set SAVEHIST 1000
-
-# Path
+# path
 set PATH = "$HOME/.npm-global/bin" $PATH
-
-# Enviroment variables
-set HISTFILE "$HOME/.bash_history"
+# environment
+set HISTFILE "$HOME/.history"
 set CFG      "$HOME/.config"
-
-#------------
-# Aliases
-#------------
-
+# alias
 alias l="ls -alh"
 alias c="clear"
 alias gs="git status"
 alias gc="git commit"
 alias code="codium"
+# includes
+for file in includes/*.fish
+  source $file
+end
 
-#------------
 # Colors
-#------------
-
 set -g fish_color_autosuggestion 555 yellow
 set -g fish_color_command 5f87d7
 set -g fish_color_comment 808080
