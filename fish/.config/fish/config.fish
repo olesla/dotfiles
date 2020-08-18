@@ -3,7 +3,7 @@
 #------------
 
 # Welcome message
-set -g fish_greeting "Javel, se det.."
+set -g fish_greeting ""
 neofetch
 
 # Keyboard
@@ -27,6 +27,7 @@ set CFG      "$HOME/.config"
 alias l="ls -alh"
 alias c="clear"
 alias gs="git status"
+alias gc="git commit"
 alias code="codium"
 
 #------------

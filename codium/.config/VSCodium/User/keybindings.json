@@ -1,11 +1,7 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+t",
+        "key": "f12",
         "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+shift+[Equal]",
-        "command": "-workbench.action.terminal.toggleTerminal"
     }
 ]
