@@ -27,7 +27,7 @@ alias gs="git status"
 alias gc="git commit"
 alias code="codium"
 # includes
-for file in includes/*.fish
+for file in $HOME/.config/fish/includes/*.fish
   source $file
 end
 
