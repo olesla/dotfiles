@@ -6,8 +6,17 @@ setxkbmap -layout no -option nodeadkeys
 # history
 set HISTSIZE 1000
 set SAVEHIST 1000
-# path
+#  path and npm
 set PATH = "$HOME/.npm-global/bin" $PATH
+set PATH = "$HOME/.bin" $PATH
+set NPM_CONFIG_PREFIX "$HOME/.npm-global"
+ # In order to make modules available to the Node.js REPL, it might be useful to
+ # also add the /usr/lib/node_modules folder to the $NODE_PATH environment
+ # variable. Since the module lookups using node_modules folders are all
+ # relative, and based on the real path of the files making the calls to 
+ # require(), the packages themselves can be anywhere.
+export NODE_PATH="$HOME/.npm-global/lib/node_modules"
+
 # environment
 set HISTFILE "$HOME/.history"
 set CFG      "$HOME/.config"
