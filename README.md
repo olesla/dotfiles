@@ -3,7 +3,7 @@ dotfiles
 Based on https://alexpearce.me/2016/02/managing-dotfiles-with-stow   
 GNU Stow https://www.gnu.org/software/stow   
 
-### Installation
+### Install
 ```bash
 cd ~
 git clone git@github.com:olesla/dotfiles.git .dotfiles
