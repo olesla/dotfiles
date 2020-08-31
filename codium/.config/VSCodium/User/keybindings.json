@@ -1,7 +1,15 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "f12",
+        "key": "shift+f12",
         "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+      "key": "f12",
+      "command": "workbench.action.terminal.focus"
+    },
+    {
+      "key": "f12",
+      "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"
     }
 ]
