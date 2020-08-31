@@ -11,5 +11,10 @@
     {
       "key": "f12",
       "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"
+    },
+    {
+      "key": "shift+space",
+      "command": "workbench.action.terminal.focusNextPane",
+      "when": "terminalFocus"
     }
 ]
