@@ -30,11 +30,11 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "window.openFoldersInNewWindow": "off",
   "editor.matchBrackets": "never",
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "workbench.colorTheme": "Owlet (Material)",
   "editor.fontSize": 12,
   "editor.fontWeight": "500",
-  "workbench.panel.defaultLocation": "left"
+  "workbench.panel.defaultLocation": "left",
+  "workbench.colorTheme": "Owlet (Charcoal)"
 }
