@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Courier Prime",
   "files.autoSave": "onFocusChange",
   "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -13,8 +13,7 @@
   "eslint.validate": [
     "javascript"
   ],
-  "terminal.integrated.fontFamily": "Fira Code",
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "Courier Prime",
   "terminal.integrated.shell.linux": "/usr/bin/fish",
   "workbench.sideBar.location": "right",
   "editor.renderControlCharacters": false,
@@ -33,8 +32,6 @@
   "workbench.statusBar.visible": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "editor.fontSize": 12,
-  "editor.fontWeight": "500",
   "workbench.panel.defaultLocation": "left",
-  "workbench.colorTheme": "Owlet (Charcoal)"
+  "editor.fontSize": 13
 }
