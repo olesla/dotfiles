@@ -13,7 +13,7 @@ set NPM_CONFIG_PREFIX "$HOME/.npm-global"
  # In order to make modules available to the Node.js REPL, it might be useful to
  # also add the /usr/lib/node_modules folder to the $NODE_PATH environment
  # variable. Since the module lookups using node_modules folders are all
- # relative, and based on the real path of the files making the calls to 
+ # relative, and based on the real path of the files making the calls to
  # require(), the packages themselves can be anywhere.
 export NODE_PATH="$HOME/.npm-global/lib/node_modules"
 
@@ -23,9 +23,10 @@ set CFG      "$HOME/.config"
 # alias
 alias l="ls -alh"
 alias c="clear"
+alias code="codium"
+alias gd="git diff"
 alias gs="git status"
 alias gc="git commit"
-alias code="codium"
 # includes
 for file in $HOME/.config/fish/includes/*.fish
   source $file
