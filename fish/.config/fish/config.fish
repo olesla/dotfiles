@@ -21,6 +21,10 @@ export NODE_PATH="$HOME/.npm-global/lib/node_modules"
 set HISTFILE "$HOME/.history"
 set CFG      "$HOME/.config"
 # alias
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 alias l="ls -alh"
 alias c="clear"
 alias code="codium"
