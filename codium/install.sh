@@ -1,7 +1,9 @@
-codium --install-extension pkief.material-icon-theme
 codium --install-extension dbaeumer.vscode-eslint
-codium --install-extension smlombardi.slime
-codium --install-extension itsjonq.owlet
+codium --install-extension bmalehorn.vscode-fish
 codium --install-extension sysoev.language-stylus
-codium --install-extension skyapps.fish-vscode
-codium --install-extension robertrossmann.remedy
+# Color themes
+codium --install-extension pkief.material-icon-theme
+codium --install-extension muhammad-sammy.gray-theme
+codium --install-extension itsjonq.owlet
+codium --install-extension enkia.tokyo-night
+codium --install-extension vladeeg.vscode-theme-vlight

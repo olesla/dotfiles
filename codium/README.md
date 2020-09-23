@@ -1,8 +1,6 @@
-Visual Studio Code
+# Visual Studio Code
 ------
-Font https://www.google.com/get/noto   
-
-### Installation
+## Installation
 The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to download and install the `.deb` package and install it via the terminal.
 
 ```bash
@@ -16,5 +14,7 @@ sudo apt-get install -f
 
 The first time Visual Studio Code is opened, it will create subdirectories in `~/.config`. Therefore you need to open the program and close it before using the `stow` command.
 
-### TODO
-Figure out a way to automatically install all extensions
+## Extensions
+```bash
+sh install.sh
+```
