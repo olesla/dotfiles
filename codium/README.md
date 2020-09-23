@@ -8,13 +8,13 @@ Microsoft’s vscode source code is open source (MIT-licensed), but the product 
 The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to [download](https://github.com/VSCodium/vscodium/releases) and install the `.deb` package and install it via the terminal.
 
 ```bash
-wget codium_x.xx.x-xxxxxx_amd64.deb
-sudo apt install ./<file>.deb
+$ wget codium_x.xx.x-xxxxxx_amd64.deb
+$ sudo apt install ./<file>.deb
 
 # If you're on an older Linux distribution, you will need to run this instead:
-sudo dpkg -i <file>.deb
+$ sudo dpkg -i <file>.deb
 # Install dependencies
-sudo apt-get install -f
+$ sudo apt-get install -f
 ```
 
 The first time VSCodium is opened, it will create subdirectories in `~/.config`. Therefore you need to open the program and close it before using the `stow` command.
@@ -24,5 +24,5 @@ The first time VSCodium is opened, it will create subdirectories in `~/.config`.
 Run this script to install extensions. Some might fail because they might not work with the current version of VSCodium.
 
 ```bash
-sh install.sh
+$ sh install.sh
 ```
