@@ -1,7 +1,6 @@
 {
   "editor.fontFamily": "Courier Prime",
   "files.autoSave": "onFocusChange",
-  "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": false,
@@ -33,5 +32,9 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "workbench.panel.defaultLocation": "left",
-  "editor.fontSize": 13
+  "editor.fontSize": 12,
+  "workbench.colorTheme": "Owlet (Default)",
+  "editor.lineHeight": 25,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.lineHeight": 1.4
 }
