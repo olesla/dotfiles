@@ -32,9 +32,9 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "workbench.panel.defaultLocation": "left",
-  "editor.fontSize": 12,
-  "workbench.colorTheme": "Owlet (Default)",
+  "editor.fontSize": 13,
   "editor.lineHeight": 25,
   "editor.minimap.enabled": false,
-  "terminal.integrated.lineHeight": 1.4
+  "terminal.integrated.lineHeight": 1.4,
+  "workbench.colorTheme": "VLight"
 }
