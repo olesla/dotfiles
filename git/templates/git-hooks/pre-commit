@@ -1,0 +1,33 @@
+#!/bin/sh
+
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+	against=HEAD
+else
+	# Initial commit: diff against an empty tree object
+	against=$(git hash-object -t tree /dev/null)
+fi
+
+todo=`git diff --cached $against | grep -e '^\+.*TODO.*$'`
+only=`git diff --cached $against | grep -e '^\+.*test\.only.*$'`
+console=`git diff --cached $against | grep -e '^\+.*console\.log.*$'`
+
+if [ -n "$todo" ]
+then
+    echo "Don't commit with TODO portion"
+    exit 1
+fi
+
+if [ -n "$only" ]
+then
+    echo "Don't commit with .only portion"
+    exit 1
+fi
+
+if [ -n "$console" ]
+then
+    echo "Don't commit with console.log portion"
+    exit 1
+fi
+
+exit 0
