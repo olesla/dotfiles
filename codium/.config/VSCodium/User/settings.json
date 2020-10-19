@@ -36,5 +36,6 @@
   "editor.lineHeight": 25,
   "editor.minimap.enabled": false,
   "terminal.integrated.lineHeight": 1.4,
-  "workbench.colorTheme": "Owlet (Charcoal)"
+  "workbench.colorTheme": "Mayukai Mono",
+  "eslint.run": "onSave"
 }
