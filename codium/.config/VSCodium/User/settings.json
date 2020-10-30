@@ -14,7 +14,7 @@
   ],
   "terminal.integrated.fontFamily": "Courier Prime",
   "terminal.integrated.shell.linux": "/usr/bin/fish",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "editor.renderControlCharacters": false,
   "editor.rulers": [
     80
@@ -32,9 +32,11 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "workbench.panel.defaultLocation": "left",
-  "editor.fontSize": 13,
   "editor.lineHeight": 25,
   "editor.minimap.enabled": false,
   "terminal.integrated.lineHeight": 1.4,
-  "workbench.colorTheme": "Owlet (Charcoal)"
+  "editor.fontSize": 13,
+  "eslint.run": "onSave",
+  "terminal.integrated.fontSize": 13,
+  "workbench.colorTheme": "VLight"
 }
