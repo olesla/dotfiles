@@ -6,6 +6,6 @@ codium --install-extension vscodevim.vim
 codium --install-extension muhammad-sammy.gray-theme
 codium --install-extension vladeeg.vscode-theme-vlight
 codium --install-extension thenikso.github-plus-theme
-acodium --install-extension axiomaticstudios.one-monokai-80s
-scodium --install-extension smlombardi.slime
-vcodium --install-extension vladeeg.vscode-theme-vlight
+codium --install-extension axiomaticstudios.one-monokai-80s
+codium --install-extension smlombardi.slime
+codium --install-extension vladeeg.vscode-theme-vlight
