@@ -27,7 +27,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "material-icon-theme.hidesExplorerArrows": true,
   "window.openFoldersInNewWindow": "off",
-  "editor.matchBrackets": "never",
   "workbench.statusBar.visible": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -35,8 +34,8 @@
   "editor.lineHeight": 25,
   "editor.minimap.enabled": false,
   "terminal.integrated.lineHeight": 1.4,
-  "editor.fontSize": 13,
+  "editor.fontSize": 12,
   "eslint.run": "onSave",
   "terminal.integrated.fontSize": 13,
-  "workbench.colorTheme": "VLight"
+  "workbench.colorTheme": "Gruvbox Material Dark"
 }
