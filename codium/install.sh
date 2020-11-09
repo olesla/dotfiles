@@ -1,9 +1,11 @@
 codium --install-extension dbaeumer.vscode-eslint
 codium --install-extension bmalehorn.vscode-fish
 codium --install-extension sysoev.language-stylus
+codium --install-extension vscodevim.vim
 # Color themes
-codium --install-extension pkief.material-icon-theme
 codium --install-extension muhammad-sammy.gray-theme
-codium --install-extension itsjonq.owlet
-codium --install-extension enkia.tokyo-night
 codium --install-extension vladeeg.vscode-theme-vlight
+codium --install-extension thenikso.github-plus-theme
+acodium --install-extension axiomaticstudios.one-monokai-80s
+scodium --install-extension smlombardi.slime
+vcodium --install-extension vladeeg.vscode-theme-vlight

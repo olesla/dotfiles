@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Courier Prime",
   "files.autoSave": "onFocusChange",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vs-minimal",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": false,
   "editor.tabSize": 2,
@@ -37,5 +37,5 @@
   "editor.fontSize": 12,
   "eslint.run": "onSave",
   "terminal.integrated.fontSize": 13,
-  "workbench.colorTheme": "Gruvbox Material Dark"
+  "workbench.colorTheme": "Default Light+"
 }
