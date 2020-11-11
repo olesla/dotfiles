@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "Courier Prime",
+  "editor.fontFamily": "Roboto Mono",
   "files.autoSave": "onFocusChange",
-  "workbench.iconTheme": "vs-minimal",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": false,
   "editor.tabSize": 2,
@@ -12,7 +12,7 @@
   "eslint.validate": [
     "javascript"
   ],
-  "terminal.integrated.fontFamily": "Courier Prime",
+  "terminal.integrated.fontFamily": "Roboto Mono",
   "terminal.integrated.shell.linux": "/usr/bin/fish",
   "workbench.sideBar.location": "left",
   "editor.renderControlCharacters": false,
@@ -31,11 +31,10 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "workbench.panel.defaultLocation": "left",
-  "editor.lineHeight": 25,
+  "editor.lineHeight": 18,
   "editor.minimap.enabled": false,
   "terminal.integrated.lineHeight": 1.4,
   "editor.fontSize": 12,
   "eslint.run": "onSave",
-  "terminal.integrated.fontSize": 13,
-  "workbench.colorTheme": "Default Light+"
+  "terminal.integrated.fontSize": 12
 }
