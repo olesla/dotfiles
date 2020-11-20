@@ -31,10 +31,11 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "workbench.panel.defaultLocation": "left",
-  "editor.lineHeight": 18,
+  "editor.lineHeight": 24,
   "editor.minimap.enabled": false,
   "terminal.integrated.lineHeight": 1.4,
   "editor.fontSize": 12,
   "eslint.run": "onSave",
-  "terminal.integrated.fontSize": 12
+  "terminal.integrated.fontSize": 12,
+  "workbench.colorTheme": "Owlet (Material)"
 }
