@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "Roboto Mono",
+  "editor.fontFamily": "JetBrains Mono",
   "files.autoSave": "onFocusChange",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "simple-icons",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.visible": false,
   "editor.tabSize": 2,
@@ -12,7 +12,7 @@
   "eslint.validate": [
     "javascript"
   ],
-  "terminal.integrated.fontFamily": "Roboto Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.shell.linux": "/usr/bin/fish",
   "workbench.sideBar.location": "left",
   "editor.renderControlCharacters": false,
@@ -34,8 +34,9 @@
   "editor.lineHeight": 24,
   "editor.minimap.enabled": false,
   "terminal.integrated.lineHeight": 1.4,
-  "editor.fontSize": 12,
   "eslint.run": "onSave",
   "terminal.integrated.fontSize": 12,
-  "workbench.colorTheme": "Owlet (Material)"
+  "workbench.colorTheme": "New Moon",
+  "editor.fontSize": 12,
+  "eslint.alwaysShowStatus": true
 }
