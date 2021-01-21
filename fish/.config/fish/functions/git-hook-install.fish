@@ -1,9 +1,4 @@
-function git-hook-install --wraps man --description 'Installs git hooks'
-  # Check if .git folder exists
-  # Check if .git/hooks/pre-commit exists. If it is, exit with a message
-  # ln -s ~/templates/git-hooks/pre-commit ./.git/hooks/pre-commit
-  # output a message saying that hook is installed
-
+function git-hook-install --description 'Installs git hooks'
   set directory ~/templates/git-hooks
 
   if not test -e $directory

@@ -34,7 +34,6 @@
   "editor.lineHeight": 24,
   "editor.minimap.enabled": false,
   "terminal.integrated.lineHeight": 1.4,
-  "eslint.run": "onSave",
   "terminal.integrated.fontSize": 12,
   "workbench.colorTheme": "New Moon",
   "editor.fontSize": 12,
