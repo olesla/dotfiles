@@ -1,0 +1,36 @@
+#!/bin/sh
+
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+	against=HEAD
+else
+  against=$(git hash-object -t tree /dev/null)
+fi
+
+todo=`git diff --cached $against | grep -e '^\+.*TODO.*$'`
+if [ -n "$todo" ]; then
+  echo "Don't commit with TODO portion"
+  exit 1
+fi
+
+only=`git diff --cached $against | grep -e '^\+.*test\.only.*$'`
+if [ -n "$only" ]; then
+  echo "Don't commit with .only portion"
+  exit 1
+fi
+
+console=`git diff --cached $against | grep -e '^\+.*console\.log.*$'`
+if [ -n "$console" ]; then
+  echo "Don't commit with console.log portion"
+  exit 1
+fi
+
+lint=`npm run lint | grep -E 'error|errors|warning|warnings'`
+echo $lint
+
+if [ -n "$lint" ]; then
+  echo "Don't commit with linting error or warnings"
+  exit 1
+fi
+
+exit 0

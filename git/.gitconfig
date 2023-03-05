@@ -1,0 +1,28 @@
+[core]
+  excludesFile = ~/.gitignore
+[alias]
+  history = log --graph --pretty=format:'%C(bold blue)%ar%Creset %C(bold magenta)[%an]%C(reset)%C(yellow)%d%Creset %s'
+  reset-origin = !git fetch origin && git reset --hard origin/master && git clean -f -d
+[color "diff"]
+  new = green
+  old = red
+  frag = blue bold
+  meta = magenta bold
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = red
+[init]
+	defaultBranch = main
+[log]
+  date = short
+[fetch]
+  # Remove branches in your local repository that no longer exist in the remote with fetch/pull
+  prune = true
+
+[includeIf "gitdir:~/personal/"]
+  path = ~/.gitconfig-personal
+[includeIf "gitdir:~/keystone/"]
+  path = ~/.gitconfig-keystone
+[includeIf "gitdir:~/mooncap/"]
+  path = ~/.gitconfig-mooncap

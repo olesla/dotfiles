@@ -1,0 +1,10 @@
+fish/.config/fish/conf.d/fzf.fish
+fish/.config/fish/functions/__fzf_cd.fish
+fish/.config/fish/functions/__fzf_complete_preview.fish
+fish/.config/fish/functions/__fzf_complete.fish
+fish/.config/fish/functions/__fzf_find_file.fish
+fish/.config/fish/functions/__fzf_get_dir.fish
+fish/.config/fish/functions/__fzf_open.fish
+fish/.config/fish/functions/__fzf_parse_commandline.fish
+fish/.config/fish/functions/__fzf_reverse_isearch.fish
+fish/.config/fish/functions/__fzfcmd.fish

@@ -1,0 +1,11 @@
+[
+  {
+    "key": "f12",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "f12",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  }
+]
