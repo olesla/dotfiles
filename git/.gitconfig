@@ -13,7 +13,7 @@
   changed = yellow
   untracked = red
 [init]
-	defaultBranch = main
+	defaultBranch = master
 [log]
   date = short
 [fetch]

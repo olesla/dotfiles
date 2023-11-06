@@ -3,12 +3,11 @@ set -g fish_greeting ""
 set -g theme_display_date no
 
 # keyboard
-xset r rate 220 40
-xset -dpms # disable power saving
-xset s off # disable screensaver
-setxkbmap -layout no -option nodeadkeys
+# xset r rate 220 40
+# xset -dpms # disable power saving
+# xset s off # disable screensaver
+# setxkbmap -layout no -option nodeadkeys
 
-# history
 set HISTSIZE 1000
 set SAVEHIST
 
@@ -16,7 +15,14 @@ set PATH = "$HOME/.npm-global/bin" $PATH
 set PATH = "$HOME/.config/composer/vendor/bin" $PATH
 set PATH = "/usr/local/go/bin" $PATH
 set PATH = "$HOME/bin" $PATH
+set PATH = "$GOPATH/bin" $PATH
+set PATH = "$GOROOT/bin" $PATH
+set PATH = "$HOME/.krew/bin" $PATH
+set PATH = "$HOME/go/bin" $PATH
+export PATH=":$PATH"
 
+set GOROOT = "/usr/local/go"
+set GOPATH = "$HOME/go"
 set NPM_CONFIG_PREFIX "$HOME/.npm-global"
 
  # In order to make modules available to the Node.js REPL, it might be useful to
@@ -42,8 +48,8 @@ alias gs="git status"
 alias gc="git commit"
 alias sail="./vendor/bin/sail"
 alias k="kubectl"
-alias kctx="kubectx"
-alias kns="kubens"
+alias kctx="kubectl-ctx"
+alias kns="kubectl-ns"
 #alias kubectl="minikube kubectl --"
 
 # includes

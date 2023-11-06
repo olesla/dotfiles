@@ -1,0 +1,25 @@
+#include /usr/share/doc/newsboat/contrib/colorschemes/inkpot
+#browser brave
+#macro t pipe-to openreddit.sh
+#macro y pipe-to newsboat-youtube.sh
+#macro p pipe-to newsboat-podcast.sh
+download-full-page yes
+auto-reload yes
+max-items 100
+
+color listnormal default default
+color listfocus default default reverse
+color listnormal_unread default default bold
+color listfocus_unread default default bold underline
+color info blue black bold
+color article default default
+
+highlight article "^Feed:.*" magenta default 
+highlight article "^Title:.*" yellow default bold
+highlight article "^Author:.*" green default
+highlight article "^Date:.*" color223 default
+highlight article "^Link:.*" blue default
+highlight article "^Flags:.*" color9 default
+highlight article "\\[[0-9][0-9]*\\]" color66 default bold
+highlight article "\\[image [0-9][0-9]*\\]" color109 default bold
+highlight article "\\[embedded flash: [0-9][0-9]*\\]" color66 default bold
