@@ -3,26 +3,22 @@ set -g fish_greeting ""
 set -g theme_display_date no
 
 # keyboard
-# xset r rate 220 40
-# xset -dpms # disable power saving
-# xset s off # disable screensaver
-# setxkbmap -layout no -option nodeadkeys
+xset r rate 220 40
+xset -dpms # disable power saving
+xset s off # disable screensaver
+setxkbmap -layout no -option nodeadkeys
 
 set HISTSIZE 1000
 set SAVEHIST
 
 set PATH = "$HOME/.npm-global/bin" $PATH
-set PATH = "$HOME/.config/composer/vendor/bin" $PATH
-set PATH = "/usr/local/go/bin" $PATH
 set PATH = "$HOME/bin" $PATH
-set PATH = "$GOPATH/bin" $PATH
-set PATH = "$GOROOT/bin" $PATH
-set PATH = "$HOME/.krew/bin" $PATH
-set PATH = "$HOME/go/bin" $PATH
+set PATH = "$HOME/sshtunnel" $PATH
+set PATH = "$HOME/.local/share/JetBrains/Toolbox/scripts" $PATH
 export PATH=":$PATH"
 
-set GOROOT = "/usr/local/go"
-set GOPATH = "$HOME/go"
+#set GOROOT = "/usr/local/go"
+#set GOPATH = "$HOME/go"
 set NPM_CONFIG_PREFIX "$HOME/.npm-global"
 
  # In order to make modules available to the Node.js REPL, it might be useful to
@@ -41,7 +37,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
-alias l="ls -Alh --group-directories-first"
+alias l="eza --icons=always -la"
+alias ls="eza --icons=always"
 alias c="clear"
 alias gd="git diff"
 alias gs="git status"
