@@ -26,3 +26,12 @@
   path = ~/.gitconfig-otrum
 [includeIf "gitdir:~/mooncap/"]
   path = ~/.gitconfig-mooncap
+[user]
+	email = Ole.christian.slaattene@uniguest.com
+	name = Ole Christian Slaattene
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

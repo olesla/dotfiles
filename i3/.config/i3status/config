@@ -7,18 +7,20 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {  
-  colors = true
+  colors = false
   interval = 5
   color_good = "#50FA7B"
   color_degraded = "#FFB86C"
   color_bad = "#FF5555"
 }
 
-order += "battery 0"
-order += "disk /"
-order += "ethernet _first_"
-order += "load"
+#order += "battery 0"
+#order += "disk /"
+#order += "ethernet _first_"
+#order += "load"
 order += "tztime local"
+order += "read_file countdown"
+order += "read_file lunch"
 
 battery 0 {
         format = "%status %percentage %remaining %emptytime"
@@ -47,5 +49,15 @@ load {
 }
 
 tztime local {
-  format = "DATE %d.%m.%Y %H:%M:%S"
+  format = "%d.%m.%Y %H:%M:%S "
+}
+
+read_file countdown {
+  format = " %content "
+  path = "/home/olesla/workday-countdown.txt"
+}
+
+read_file lunch {
+  format = " %content"
+  path = "/home/olesla/whats_for_lunch_today.txt"
 }

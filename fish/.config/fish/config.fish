@@ -44,10 +44,10 @@ alias gd="git diff"
 alias gs="git status"
 alias gc="git commit"
 alias sail="./vendor/bin/sail"
-alias k="kubectl"
-alias kctx="kubectl-ctx"
-alias kns="kubectl-ns"
-#alias kubectl="minikube kubectl --"
+#alias k="kubectl"
+#alias kctx="kubectl-ctx"
+#alias kns="kubectl-ns"
+alias kubectl="mk kubectl --"
 
 # includes
 for file in $HOME/.config/fish/includes/*.fish
