@@ -65,7 +65,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -209,3 +209,6 @@ bar {
 bindsym $mod+space exec --no-startup-id rofi -show combi
 # Thunar
 bindsym $mod+e exec --no-startup-id thunar
+# flameshot
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui --delay 5
+

@@ -1,5 +1,5 @@
 #include /usr/share/doc/newsboat/contrib/colorschemes/inkpot
-#browser brave
+browser "chromium %u"
 #macro t pipe-to openreddit.sh
 #macro y pipe-to newsboat-youtube.sh
 #macro p pipe-to newsboat-podcast.sh
