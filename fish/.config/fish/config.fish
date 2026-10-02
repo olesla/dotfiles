@@ -13,6 +13,7 @@ set SAVEHIST
 
 set PATH = "$HOME/.npm-global/bin" $PATH
 set PATH = "$HOME/bin" $PATH
+set PATH = "$HOME/.local/bin" $PATH
 export PATH=":$PATH"
 
 #set GOROOT = "/usr/local/go"

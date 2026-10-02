@@ -20,18 +20,6 @@
   # Remove branches in your local repository that no longer exist in the remote with fetch/pull
   prune = true
 
-[includeIf "gitdir:~/personal/"]
-  path = ~/.gitconfig-personal
-[includeIf "gitdir:~/otrum/"]
-  path = ~/.gitconfig-otrum
-[includeIf "gitdir:~/mooncap/"]
-  path = ~/.gitconfig-mooncap
 [user]
-	email = Ole.christian.slaattene@uniguest.com
+	email = ole.christian.slaattene@ikt-agder.no
 	name = Ole Christian Slaattene
-[credential "https://github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
