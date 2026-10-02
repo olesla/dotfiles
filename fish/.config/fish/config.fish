@@ -13,8 +13,6 @@ set SAVEHIST
 
 set PATH = "$HOME/.npm-global/bin" $PATH
 set PATH = "$HOME/bin" $PATH
-set PATH = "$HOME/sshtunnel" $PATH
-set PATH = "$HOME/.local/share/JetBrains/Toolbox/scripts" $PATH
 export PATH=":$PATH"
 
 #set GOROOT = "/usr/local/go"
