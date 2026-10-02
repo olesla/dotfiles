@@ -3,10 +3,10 @@ set -g fish_greeting ""
 set -g theme_display_date no
 
 # keyboard
-xset r rate 220 40
-xset -dpms # disable power saving
-xset s off # disable screensaver
-setxkbmap -layout no -option nodeadkeys
+# xset r rate 220 40
+# xset -dpms # disable power saving
+# xset s off # disable screensaver
+# setxkbmap -layout no -option nodeadkeys
 
 set HISTSIZE 1000
 set SAVEHIST
